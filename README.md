@@ -7,6 +7,14 @@ The goal is to make this project **easy to clone, run, and understand** for anyo
 
 ---
 
+## 🚀 Project Badges
+
+![Last Commit](https://img.shields.io/github/last-commit/jrhcorp2023Git/Project00003)
+![Repo Size](https://img.shields.io/github/repo-size/jrhcorp2023Git/Project00003)
+![License](https://img.shields.io/badge/license-MIT-blue)
+![Status](https://img.shields.io/badge/status-active-brightgreen)
+
+
 ## 🗂 Project Structure
 
 Project00003/ │ ├── sql/        # SQL scripts (schema, inserts, queries) ├── docs/       # Documentation, ERD diagrams, notes ├── data/       # Sample datasets (CSV or other formats) ├── images/     # Screenshots or diagrams └── README.md   # Project overview
