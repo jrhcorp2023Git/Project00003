@@ -13,6 +13,10 @@ The goal is to make this project **easy to clone, run, and understand** for anyo
 ![Repo Size](https://img.shields.io/github/repo-size/jrhcorp2023Git/Project00003)
 ![License](https://img.shields.io/badge/license-MIT-blue)
 ![Status](https://img.shields.io/badge/status-active-brightgreen)
+![GitHub Stars](https://img.shields.io/github/stars/jrhcorp2023Git/Project00003?style=social)
+![GitHub Forks](https://img.shields.io/github/forks/jrhcorp2023Git/Project00003?style=social)
+![Top Language](https://img.shields.io/github/languages/top/jrhcorp2023Git/Project00003)
+![GitHub Commit Activity](https://img.shields.io/github/commit-activity/m/jrhcorp2023Git/Project00003)
 
 
 ## 🗂 Project Structure
