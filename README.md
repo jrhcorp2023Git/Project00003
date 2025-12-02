@@ -18,6 +18,20 @@ The goal is to make this project **easy to clone, run, and understand** for anyo
 ![Top Language](https://img.shields.io/github/languages/top/jrhcorp2023Git/Project00003)
 ![GitHub Commit Activity](https://img.shields.io/github/commit-activity/m/jrhcorp2023Git/Project00003)
 
+## 📦 Getting Started
+
+To clone and run this project locally:
+
+```bash
+# Clone the repository
+git clone https://github.com/jrhcorp2023Git/Project00003.git
+
+# Navigate into the project folder
+cd Project00003
+
+# Open the SQL schema
+cd sql
+
 
 ## 🗂 Project Structure
 
