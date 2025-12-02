@@ -161,26 +161,53 @@ Contributions are welcome!
 
 ## Usage Examples
 sqlite> .read "C:/Users/jrhma/OneDrive/Documents/sqlite/Project00003/sql/queries.sql"
-Alice Johnson|339.99
-Bob Smith|325.5
-Carol Davis|300.0
-Eva Brown|150.0
-David Miller|45.75
-Alice|Johnson|2
-Bob|Smith|2
-Carol|Davis|1
-David|Miller|1
-Eva|Brown|1
-Alice Johnson|169.995
-Bob Smith|162.75
-Carol Davis|300.0
-David Miller|45.75
-Eva Brown|150.0
-Alice|Johnson|2
-Bob|Smith|2
-Carol|Davis|1
-David|Miller|1
-Eva|Brown|1
+
+📊 Query 1: Total Purchase Amount per Customer
+
+-- Total purchase amount per customer
+SELECT customer_name, SUM(amount) FROM purchases GROUP BY customer_name;
+
+### Total Purchase Amount per Customer
+| Customer       | Total Amount |
+|----------------|--------------|
+| Alice Johnson  | 339.99       |
+| Bob Smith      | 325.50       |
+| Carol Davis    | 300.00       |
+| Eva Brown      | 150.00       |
+| David Miller   | 45.75        |
+
+📊 Query 2: Number of Transactions per Customer
+
+-- Number of transactions per customer
+SELECT first_name, last_name, COUNT(*) FROM purchases GROUP BY first_name, last_name;
+
+### Number of Transactions per Customer
+| First Name | Last Name | Transaction Count |
+|------------|-----------|-------------------|
+| Alice      | Johnson   | 2                 |
+| Bob        | Smith     | 2                 |
+| Carol      | Davis     | 1                 |
+| David      | Miller    | 1                 |
+| Eva        | Brown     | 1                 |
+
+📊 Query 3: Discounted Totals (50% Off Demo)
+
+-- Discounted totals (50% off for demo)
+SELECT customer_name, SUM(amount) * 0.5 FROM purchases GROUP BY customer_name;
+
+### Discounted Totals (50% Off Demo)
+| Customer       | Discounted Total |
+|----------------|------------------|
+| Alice Johnson  | 169.995          |
+| Bob Smith      | 162.75           |
+| Carol Davis    | 300.00           |
+| Eva Brown      | 150.00           |
+| David Miller   | 45.75            |
+
+---
+
+These blocks are ready to paste into your README. GitHub will render them as neat tables, making your queries and outputs easy to follow.
+👉 Do you want me to also add a short SQL snippet above each table so recruiters can see the query that produced the result? That often makes the demo feel more complete.
 
 ---
 
@@ -188,7 +215,6 @@ Eva|Brown|1
 Created by [John](https://github.com/yourusername) – feel free to reach out!
 
 ---
-
 
 This version is **clean, recruiter-ready, and technically precise**. It shows off your workflow clarity and SQL focus while leaving room for future enhancements like the ERD diagram.  
 
