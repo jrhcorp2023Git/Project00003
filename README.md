@@ -160,18 +160,34 @@ Contributions are welcome!
 ---
 
 ## Usage Examples
+sqlite> .read "C:/Users/jrhma/OneDrive/Documents/sqlite/Project00003/sql/queries.sql"
+Alice Johnson|339.99
+Bob Smith|325.5
+Carol Davis|300.0
+Eva Brown|150.0
+David Miller|45.75
+Alice|Johnson|2
+Bob|Smith|2
+Carol|Davis|1
+David|Miller|1
+Eva|Brown|1
+Alice Johnson|169.995
+Bob Smith|162.75
+Carol Davis|300.0
+David Miller|45.75
+Eva Brown|150.0
+Alice|Johnson|2
+Bob|Smith|2
+Carol|Davis|1
+David|Miller|1
+Eva|Brown|1
 
-
-
-
+---
 
 ## Contact
 Created by [John](https://github.com/yourusername) – feel free to reach out!
 
 ---
-
-
-
 
 
 This version is **clean, recruiter-ready, and technically precise**. It shows off your workflow clarity and SQL focus while leaving room for future enhancements like the ERD diagram.  
