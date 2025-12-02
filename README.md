@@ -176,6 +176,9 @@ SELECT customer_name, SUM(amount) FROM purchases GROUP BY customer_name;
 | Eva Brown      | 150.00       |
 | David Miller   | 45.75        |
 
+Explanation:
+This query calculates the total purchase amount for each customer by summing all their transactions. It demonstrates the use of the SUM() function with GROUP BY to aggregate financial data, a common task in reporting and analytics. Recruiters will recognize this as a practical example of turning raw transaction records into meaningful business insights.
+
 📊 Query 2: Number of Transactions per Customer
 
 -- Number of transactions per customer
@@ -190,6 +193,9 @@ SELECT first_name, last_name, COUNT(*) FROM purchases GROUP BY first_name, last_
 | David      | Miller    | 1                 |
 | Eva        | Brown     | 1                 |
 
+Explanation:
+This query counts how many transactions each customer has made. It demonstrates grouping by individual names and applying the  function to show customer activity levels.
+
 📊 Query 3: Discounted Totals (50% Off Demo)
 
 -- Discounted totals (50% off for demo)
@@ -203,6 +209,9 @@ SELECT customer_name, SUM(amount) * 0.5 FROM purchases GROUP BY customer_name;
 | Carol Davis    | 300.00           |
 | Eva Brown      | 150.00           |
 | David Miller   | 45.75            |
+
+Explanation:
+This query applies a 50% discount to each customer’s total purchase amount. It demonstrates how SQL can be used for simple business logic calculations, such as promotions or pricing scenarios.
 
 ---
 
