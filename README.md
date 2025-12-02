@@ -120,15 +120,21 @@ This project follows a repeatable workflow for SQL projects:
 • 	Git version control
 - Portfolio-ready presentation
 
+---
+
 ## Features
 - Relational SQL schema with validated joins
 - Clear documentation and usage examples
 - Easy setup with step-by-step instructions
 
+---
+
 ## Tech Stack
 - SQL (PostgreSQL/MySQL)
 - Python for data handling
 - GitHub for version control
+
+---
 
 ## Contributing
 Contributions are welcome!  
@@ -138,20 +144,35 @@ Contributions are welcome!
 4. Push to branch (`git push origin feature/AmazingFeature`)  
 5. Open a Pull Request  
 
+---
+
 ## Roadmap
 - [ ] Add more complex SQL queries  
 - [ ] Expand documentation with diagrams  
 - [ ] Create automated tests  
 
+---
+
 ## Acknowledgments
 - Inspiration from [SQL tutorials]  
 - Thanks to open-source contributors  
 
+---
+
+## Usage Examples
+
+
+
+
+
 ## Contact
 Created by [John](https://github.com/yourusername) – feel free to reach out!
 
-
 ---
+
+
+
+
 
 This version is **clean, recruiter-ready, and technically precise**. It shows off your workflow clarity and SQL focus while leaving room for future enhancements like the ERD diagram.  
 
