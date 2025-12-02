@@ -2,13 +2,12 @@
 
 ## 📖 Overview
 Project 00003 is part of my SQL portfolio series.  
-It demonstrates structured database design, relational queries, and workflow organization using SQLite.  
+It demonstrates structured database design, relational queries, and workflow organization using **SQLite**.  
 The goal is to make this project **easy to clone, run, and understand** for anyone reviewing my work.
 
 ---
 
 ## 🚀 Project Badges
-
 ![Last Commit](https://img.shields.io/github/last-commit/jrhcorp2023Git/Project00003)
 ![Repo Size](https://img.shields.io/github/repo-size/jrhcorp2023Git/Project00003)
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE.md)
@@ -17,6 +16,8 @@ The goal is to make this project **easy to clone, run, and understand** for anyo
 ![GitHub Forks](https://img.shields.io/github/forks/jrhcorp2023Git/Project00003?style=social)
 ![Top Language](https://img.shields.io/github/languages/top/jrhcorp2023Git/Project00003)
 ![GitHub Commit Activity](https://img.shields.io/github/commit-activity/m/jrhcorp2023Git/Project00003)
+
+---
 
 ## 📦 Getting Started
 
@@ -32,33 +33,44 @@ cd Project00003
 # Open the SQL schema
 cd sql
 
-
-## 🗂 Project Structure
-
-Project00003/ │ ├── sql/        # SQL scripts (schema, inserts, queries) ├── docs/       # Documentation, ERD diagrams, notes ├── data/       # Sample datasets (CSV or other formats) ├── images/     # Screenshots or diagrams └── README.md   # Project overview
-
-
+Project00003/
+├── sql/        # SQL scripts (schema, inserts, queries)
+├── docs/       # Documentation, ERD diagrams, notes
+├── data/       # Sample datasets (CSV or other formats)
+├── images/     # Screenshots or diagrams
+└── README.md   # Project overview
 ---
 
 ## ⚙️ Setup Instructions
 1. Clone the repository:
-   ```bash
-   git clone <your-repo-url>
-   cd Project00003
 
+git clone https://github.com/jrhcorp2023Git/Project00003.git
+cd Project00003
 
 2. 	Open SQLite or your preferred SQL client.
+
 3. 	Run the schema file:
+
+sqlite3 project00003.db < sql/schema.sql
 
 4. 	Load sample data:
 
 sqlite3 project00003.db < sql/data_inserts.sql
 
-5. 	Execute queries from .
+5. 	Execute queries from:
+
+sqlite3 project00003.db < sql/queries.sql
 
 
-Entity Relationship Diagram (ERD)
-(Diagram will be added later in )
+## 📊 Entity Relationship Diagram (ERD)
+_Diagram coming soon – will illustrate table relationships visually._
+
+🎯 Project Goals
+• 	Practice creating normalized tables with foreign keys
+• 	Write JOIN queries to validate relationships
+• 	Document workflow for repeatability
+• 	Prepare portfolio-ready projects for GitHub
+
 
 🎯 Learning Goals
 • 	Practice creating normalized tables with foreign keys.
@@ -78,11 +90,6 @@ This project follows a repeatable workflow for SQL projects:
 • 	Clear documentation
 • 	Git version control
 - Portfolio-ready presentation
-
-👉 Once you save this file, run:
-```bash
-git add README.md
-git commit -m "Add README.md template for Project 00003"
 
 ## Features
 - Relational SQL schema with validated joins
@@ -114,4 +121,14 @@ Contributions are welcome!
 ## Contact
 Created by [John](https://github.com/yourusername) – feel free to reach out!
 
+👉 Once you save this file, run:
+```bash
+git add README.md
+git commit -m "Add README.md template for Project 00003"
+
+---
+
+This version is **clean, recruiter-ready, and technically precise**. It shows off your workflow clarity and SQL focus while leaving room for future enhancements like the ERD diagram.  
+
+👉 Would you like me to help you **generate a simple ERD diagram** for your schema now, so you can drop it straight into the `docs/` folder and reference it in the README?
 
