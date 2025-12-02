@@ -79,11 +79,39 @@ This project follows a repeatable workflow for SQL projects:
 • 	Git version control
 - Portfolio-ready presentation
 
-
----
-
 👉 Once you save this file, run:
 ```bash
 git add README.md
 git commit -m "Add README.md template for Project 00003"
+
+## Features
+- Relational SQL schema with validated joins
+- Clear documentation and usage examples
+- Easy setup with step-by-step instructions
+
+## Tech Stack
+- SQL (PostgreSQL/MySQL)
+- Python for data handling
+- GitHub for version control
+
+## Contributing
+Contributions are welcome!  
+1. Fork the repo  
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)  
+3. Commit changes (`git commit -m 'Add some AmazingFeature'`)  
+4. Push to branch (`git push origin feature/AmazingFeature`)  
+5. Open a Pull Request  
+
+## Roadmap
+- [ ] Add more complex SQL queries  
+- [ ] Expand documentation with diagrams  
+- [ ] Create automated tests  
+
+## Acknowledgments
+- Inspiration from [SQL tutorials]  
+- Thanks to open-source contributors  
+
+## Contact
+Created by [John](https://github.com/yourusername) – feel free to reach out!
+
 
