@@ -72,12 +72,6 @@ _Diagram coming soon – will illustrate table relationships visually._
 • 	Prepare portfolio-ready projects for GitHub
 
 
-🎯 Learning Goals
-• 	Practice creating normalized tables with foreign keys.
-• 	Write JOIN queries to validate relationships.
-• 	Document workflow for repeatability.
-• 	Prepare portfolio-ready projects for GitHub.
-
 ✅ Status
 • 	[x] Project folder initialized
 • 	[ ] Schema design in progress
@@ -121,10 +115,6 @@ Contributions are welcome!
 ## Contact
 Created by [John](https://github.com/yourusername) – feel free to reach out!
 
-👉 Once you save this file, run:
-```bash
-git add README.md
-git commit -m "Add README.md template for Project 00003"
 
 ---
 
